@@ -1,0 +1,15 @@
+{
+  "name": "githubActionsTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "Sergio Guerra Arencibia <alu0101133201@ull.edu.es> (https://github.com/alu0101133201)",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
