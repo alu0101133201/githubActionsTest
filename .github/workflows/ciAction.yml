@@ -12,10 +12,3 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm test
-
-  success-tests:
-    name: print-if-success
-    needs: testing
-    runs-on: ubuntu-latests
-    steps:
-      - run: echo ":D"
